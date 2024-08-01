@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="defalts.css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<header>
+		<div class="header container container-flex">
+			<a href="#">
+				<img src="image/svg/tsn.svg" alt="">
+			</a>
+			<button class="header__mob-btn" onclick="show(this)">
+				<span class="off">открыть меню</span>
+				<span class="on">закрыть меню</span>	
+			</button>
+			<div class="header__list">
+				<a href="#" >О компаниии</a>
+				<a href="#" >Вся продукция</a>
+				<a href="#" >Как заказать</a>
+				<a href="#" >Оплата</a>
+				<a href="#" >Доставка</a>
+				<a href="#" >Требования к макетам</a>
+				<a href="#" class="head__list-last">Контакты</a>
+				<button class="g-btn">
+					ТЗ на дизайн
+				</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="proffi__print">
+			<div class="container container-flex">
+				<div class="proffi__print-info _accordeonParent">
+					<p class="proffi__print-clock">По рабочим дням с <span>9:00</span> до <span>16:30</span></p>
+					<h1>Профессиональная печать по ткани в Санкт-Петербурге</h1>
+					<button class="g-btn proffile__print-btn--mobile" onclick="accordeon(this)">
+						<span class="proffi__print-btn--details">Подробнее</span>
+						<span class="proffi__print-btn--close">Закрыть</span>
+					</button>
+					<div class="proffi__print-wrap--mobile _accordeonContent">
+						<p class="proffi__print-prise">Мы имеем полный <span class="proffi__print-coplex">комплекс современного оборудования</span>, который позволяет обеспечить  выпуск продукции своими силами на 100%. Это позволяет нам осуществлять контроль качества на всех этапах производства и, конечно, предложить вам <a href="">добрые цены.</a></p>
+						<div class="proffile__print-btns">
+							<button class="g-btn ">ПОЗВОНИТЬ</button>
+							<button class="proffile__print-btn">ПЕРЕЗВОНИМ ВАМ В РАБОЧЕЕ ВРЕМЯ</button>
+						</div>
+					</div>
+				</div>
+				<img src="image/png/proffi__print-image.png" alt="">
+			</div>
+		</section>
+
+		<section class="tsn-global">
+			<div class="container container-flex-start">
+				<div class="tsn-global__wrap">
+					<h3 class="tsn-global__title">Продукция</h3>
+					<div class="tsn-global__inputwrap">
+						<img src="image/svg/finder.svg" alt="">
+						<input type="text" onchange="search(this)" placeholder="Найти по названию">
+					</div>
+					<ul class="tsn-global__sidebar">
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Банданы
+							</a>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Баннеры
+							</a>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Бейсболки
+							</a>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Вымпелы
+							</a>
+						</li>
+						<li class="tsn-global__item _accordeonParent">
+							<div class="g-flex tsn-global__pointer" onclick="accordeon(this)">
+								<span class="_product">Галстуки</span>
+								<img src="image/svg/arrow.svg" alt="">
+							</div>
+							<ul class="tsn-global__inner _accordeonContent">
+								<li class="tsn-global__inner-item">
+									<a href="#">Ленты с логотипом</a>
+								</li>
+								<li class="tsn-global__inner-item">
+									<a href="#">Наградные ленты</a>
+								</li>
+								<li class="tsn-global__inner-item">
+									<a href="#">Георгиевские ленты</a>
+								</li>
+							</ul>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Календари на ткани
+							</a>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Жилеты с логотипом
+							</a>
+						</li>
+						<li class="tsn-global__item _accordeonParent">
+							<div class="g-flex tsn-global__pointer" onclick="accordeon(this)">
+								<span class="_product">Ленты</span>
+								<img src="image/svg/arrow.svg" alt="">
+							</div>
+							<ul class="tsn-global__inner _accordeonContent">
+								<li class="tsn-global__inner-item">
+									<a href="#">Ленты с логотипом</a>
+								</li>
+								<li class="tsn-global__inner-item">
+									<a href="#">Наградные ленты</a>
+								</li>
+								<li class="tsn-global__inner-item">
+									<a href="#">Георгиевские ленты</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Коврики для мыши
+							</a>
+						</li>
+						<li class="tsn-global__item">
+							<a href="#" class="_product">
+								Кружки
+							</a>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="tsn-global__overflow">
+					<div class="tsn-global__slider _assort">
+						<h3 class="tsn-global__slider--title">В ассортименте</h3>
+						<div class="slider-list-wrap">
+							<div class="slider-list _slider">
+								<div class="slider-item _slide">
+									<img src="image/png/flag.png" alt="">
+									<p>Флаги</p>
+									<span>Символическое изображения, которые служат для обозначения определенной группы или сообщества людей.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/k24.png" alt="">
+									<p>Виндеры и рекламные флаги</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/t-shorts.png" alt="">
+									<p>Для спорта</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/t-shorts.png" alt="">
+									<p>Для спорта</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+							</div>
+						</div>
+						<div class="tsn-global__btns">
+							<div class="slider-list--prev slider-list--size _prev"><</div>
+							<div class="slider-list--next slider-list--size _next">></div>
+						</div>
+					</div>
+					<div class="tsn-global__slider _assort1">
+						<h3 class="tsn-global__slider--title">В ассортименте</h3>
+						<div class="slider-list-wrap">
+							<div class="slider-list _slider">
+								<div class="slider-item _slide">
+									<img src="image/png/flag.png" alt="">
+									<p>Флаги</p>
+									<span>Символическое изображения, которые служат для обозначения определенной группы или сообщества людей.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/k24.png" alt="">
+									<p>Виндеры и рекламные флаги</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/t-shorts.png" alt="">
+									<p>Для спорта</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+								<div class="slider-item _slide">
+									<img src="image/png/t-shorts.png" alt="">
+									<p>Для спорта</p>
+									<span>обозначало принадлежность к владению определённых племён.</span>
+								</div>
+							</div>
+						</div>
+						<div class="tsn-global__btns">
+							<div class="slider-list--prev slider-list--size _prev"><</div>
+							<div class="slider-list--next slider-list--size _next">></div>
+						</div>
+					</div>
+					
+			<div class="tsn-global__slider _assort2">
+				<div class="slider-list-wrap ">
+						<div class="advertising-slider _slider">
+							<div class="advertising-slider__list _slide">
+								<img src="image/png/menfit.png" alt="">
+								<div class="advertising-slider__list-wrap">
+									<p>В нашей компании работают настоящие профессионалы своего дела.</p>
+									<span>Мы имеем полный комплекс современного оборудования, который позволяет обеспечить  выпуск продукции своими силами на 100%. Это позволяет нам осуществлять контроль качества на всех этапах производства и, конечно, предложить вам <a href="#">добрые цены.</a></span>
+								</div>
+							</div>
+							<div class="advertising-slider__list _slide">
+								<img src="image/png/shol.png" alt="">
+								<div class="advertising-slider__list-wrap">
+									<p>Наши двери открыты для любого клиента</p>
+									<span>Неважно кто вы - частное лицо или крупная корпорация. <a href="#">Принимаем любой заказ и выполняем его с душой.</a></span>
+								</div>
+							</div>
+							<div class="advertising-slider__list _slide">
+								<img src="image/png/kits.png" alt="">
+								<div class="advertising-slider__list-wrap">
+									<p>Предлагаем лучшее</p>
+									<span>Наша специализация – сублимационная печать по текстилю. Мы любим ее не зря.Вот доподлинно: все <a href="#">преимущества сублимационной технологии без утайки секретов.</a></span>
+								</div>
+							</div>
+							<div class="advertising-slider__list _slide">
+								<img src="image/png/kits.png" alt="">
+								<div class="advertising-slider__list-wrap">
+									<p>Предлагаем лучшее</p>
+									<span>Наша специализация – сублимационная печать по текстилю. Мы любим ее не зря.Вот доподлинно: все <a href="#">преимущества сублимационной технологии без утайки секретов.</a></span>
+								</div>
+							</div>
+						</div>
+				</div>	
+					<div class="tsn-global__btns">
+						<div class="slider-list--prev slider-list--size _prev"><</div>
+						<div class="slider-list--next slider-list--size _next">></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+</main>
+<script src="script.js"></script>	
+</body>
+</html>

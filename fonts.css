@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Captura Now';
+    src: url('fonts/Captura Now/CapturaNowRegular.eot');
+    src: url('fonts/Captura Now/CapturaNowRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Captura Now/CapturaNowRegular.woff2') format('woff2'),
+        url('fonts/Captura Now/CapturaNowRegular.woff') format('woff'),
+        url('fonts/Captura Now/CapturaNowRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Regular.eot');
+    src: url('fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto/Roboto-Regular.woff') format('woff'),
+        url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('fonts/Golos/GolosText-Regular.eot');
+    src: url('fonts/Golos/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Golos/GolosText-Regular.woff2') format('woff2'),
+        url('fonts/Golos/GolosText-Regular.woff') format('woff'),
+        url('fonts/Golos/GolosText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
